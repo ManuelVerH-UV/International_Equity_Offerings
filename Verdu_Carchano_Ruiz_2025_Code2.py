@@ -16,7 +16,6 @@
 
 #################### LIBRARIES TO USE ####################
 
-import os
 import warnings                         # Allows to ignore certain warnings and get a cleaner output.
 
 import numpy as np                      # Allows to work with Series.
@@ -28,7 +27,6 @@ from scipy import stats                 # Allows to work with statistical tests 
 from scipy.linalg import toeplitz
 
 warnings.filterwarnings('ignore')
-os.chdir('/Users/manuelverduhenares/Library/CloudStorage/Dropbox/1_Investigación/10_BBDD/2025_Verdu_Carchano_Ruiz')
 
 #################### START OF THE CODE ####################
 
