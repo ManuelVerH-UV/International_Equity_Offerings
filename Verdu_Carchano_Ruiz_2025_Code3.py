@@ -16,7 +16,6 @@
 
 #################### LIBRARIES TO USE ####################
 
-import os
 import warnings                         # Allows to ignore certain warnings and get a cleaner output.
 import itertools                        # Allows to work with combinations and permutations.
 
@@ -27,7 +26,6 @@ import statsmodels.formula.api as smf	# Allows to apply regression methods.
 from scipy.linalg import toeplitz
 
 warnings.filterwarnings('ignore')
-os.chdir('/Users/manuelverduhenares/Library/CloudStorage/Dropbox/1_Investigación/10_BBDD/2025_Verdu_Carchano_Ruiz')
 
 #################### START OF COMPLEMENTARY FUNCTIONS ####################
 
